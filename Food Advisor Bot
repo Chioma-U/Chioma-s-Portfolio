@@ -1,0 +1,62 @@
+import random
+a=5
+
+while a > 0:
+   print
+   answer = input("You:")
+   string = answer
+
+   # responses
+   greetings = ["Hi there!", "How can I be of help?", "Hello!"]
+   age = ["I am 14 years old", "I have existed for fourteen years surprisingly",
+          "I may not be older than you, I am 14 years old"]
+   name = ["My name is Jasmine", "You can call me Jasmine", "I go by Jasmine",
+           "My friends call me Jas, but my name is Jasmine"]
+   gender = ["I am female", "I'm a female"]
+   goodbye = ["talk to you later", "bye", "It was fun talking to you, see you later!"]
+   reason = ["I am a pizza suggestion bot", "I suggest types of pizzas ", "I am the famous pizza suggestor for Frento"]
+   meat = ["I am sure yoy would love meatzza", "I highly recommend chicken supreme", "Mexican Fiest","Beef mushroom and American All star are good options"]
+   chicken = ["You can try one of these:chicken lovers,Chicken Mushroom,Peppered Chicken,Pineapple Chicken,Hawaiin Pizza"]
+   vegan = ["You can try our italian Oregano and Basil Pizza"]
+
+
+
+   if "hi" in string:
+       print("Bot:" + random.choice(greetings))
+
+   if "age" in string:
+       print("Bot:" + random.choice(age))
+
+   elif "name" in string:
+         print("Bot:" + random.choice(name))
+
+   elif "gender" in string:
+         print("Bot:" + random.choice(gender))
+
+   elif "bye" in string:
+         print("Bot:" + random.choice(goodbye))
+
+   elif "you" in string:
+       print ("Bot:" + random.choice(reason))
+
+   elif "meat" in string:
+       print("Bot:"+ random.choice(meat))
+
+   elif "chicken" in string:
+       print("Bot:" + random.choice(chicken))
+
+   elif "vegetarian" in string:
+       print("Bot:" + random.choice(vegan))
+
+
+
+   else:
+       if (a == 2):
+           break
+       print("")
+
+
+
+
+
+
