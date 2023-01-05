@@ -1,0 +1,51 @@
+while True:
+
+    num=int(input("Please input your number"))
+
+    md= int(num) % 2
+
+    if md == 0:
+        print("This is an even number")
+
+    else:
+        print("This is an odd number")
+
+
+    print()
+    print()
+
+
+    num_two=int(input("Please input a second number"))
+
+    md_two = int(num_two) % 4
+    if md_two == 0:
+        print("This number can be divided without a remainder")
+
+    else:
+        print("This number gives a remainder")
+
+
+    print()
+    print()
+
+
+
+    cn=input("do you wish to continue")
+
+    if (cn == "no"):
+            print("Have a nice day!")
+            break
+
+    else:
+        print()
+        print()
+
+
+
+
+
+
+
+
+
+
